@@ -1,0 +1,330 @@
+{
+	"info": {
+		"_postman_id": "78cdbba3-5bea-4ede-bd24-4c24135f7cbb",
+		"name": "Projeto CollectionJava",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16966914"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/monitores",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/monitores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"monitores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/monitores/disciplina?nome=Compiladores",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/monitores/disciplina?nome=Compiladores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"monitores",
+						"disciplina"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "Compiladores"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/monitores/semestre?nome=Primeiro%20Semestre",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/monitores/semestre?nome=Primeiro%20Semestre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"monitores",
+						"semestre"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "Primeiro%20Semestre"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/monitores/save",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"disciplina\": \"Compiladores\", \"nome\": \"Cristiano\", \"semestre\": \"Primeiro Semestre\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/monitores/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"monitores",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/monitores/atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"disciplina\": \"Compiladores\", \"id\": 1, \"nome\": \"Cristiano Filho\", \"semestre\": \"Segundo Semestre\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/monitores/atualizar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"monitores",
+						"atualizar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/assuntoByDisciplinaAndSemestre?disciplina=Compiladores&semestre=Primeiro%20Semestre",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/assuntoByDisciplinaAndSemestre?disciplina=Compiladores&semestre=Primeiro%20Semestre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"assuntoByDisciplinaAndSemestre"
+					],
+					"query": [
+						{
+							"key": "disciplina",
+							"value": "Compiladores"
+						},
+						{
+							"key": "semestre",
+							"value": "Primeiro%20Semestre"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/assuntoByDisciplinaAndPeriodo?disciplina=Compiladores&periodo=Tarde",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/assuntoByDisciplinaAndPeriodo?disciplina=Compiladores&periodo=Tarde",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"assuntoByDisciplinaAndPeriodo"
+					],
+					"query": [
+						{
+							"key": "disciplina",
+							"value": "Compiladores"
+						},
+						{
+							"key": "periodo",
+							"value": "Tarde"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/assuntoByDisciplinaAndData?dataAssunto=21-12-2022&disciplina=Compiladores",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/assuntoByDisciplinaAndData?dataAssunto=21-12-2022&disciplina=Compiladores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"assuntoByDisciplinaAndData"
+					],
+					"query": [
+						{
+							"key": "dataAssunto",
+							"value": "21-12-2022"
+						},
+						{
+							"key": "disciplina",
+							"value": "Compiladores"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/assunto/save",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"dateAssunto\": \"21-12-2022\", \"disciplina\": \"Compiladores\", \"nome\": \"BNF\", \"periodo\": \"tarde\", \"semestre\": \"Primeiro Semestre\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/assunto/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"assunto",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/assunto/atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"dateAssunto\": \"31-11-2022\", \"disciplina\": \"Compiladores\", \"id\": 1, \"nome\": \"FNB\", \"periodo\": \"TARde\", \"semestre\": \"Primeiro Semestre\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/assunto/atualizar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"assunto",
+						"atualizar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
