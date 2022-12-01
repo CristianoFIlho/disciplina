@@ -3,9 +3,14 @@
 
 collection no postman arquivo ProjetoCollectionJava.json 
 
-Link para as Collections no postman:
+##Link para as Collections no postman:
 
 https://github.com/CristianoFIlho/disciplina/blob/master/ProjetoCollectionJava.json
+
+##Como importar as collections?
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/54041918/204943274-8936d5cc-7d33-4054-a0e2-e16b29cc593e.gif)
+
 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54041918/204921034-d432633a-8ee1-4a55-b3f4-afca5c83fa89.gif)
