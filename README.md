@@ -7,7 +7,7 @@ collection no postman arquivo ProjetoCollectionJava.json
 
 https://github.com/CristianoFIlho/disciplina/blob/master/ProjetoCollectionJava.json
 
-##Como importar as collections?
+## Como importar as collections?
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/54041918/204943274-8936d5cc-7d33-4054-a0e2-e16b29cc593e.gif)
 
