@@ -3,7 +3,7 @@
 
 collection no postman arquivo ProjetoCollectionJava.json 
 
-## Video Test link: 
+## Video Teste Postman: 
 
 https://drive.google.com/file/d/1g_Otffixo5txR545_5_3FFS-SQylSaIK/view?usp=sharing
 
