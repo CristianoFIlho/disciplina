@@ -12,9 +12,6 @@ https://github.com/CristianoFIlho/disciplina/blob/master/ProjetoCollectionJava.j
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/54041918/204943274-8936d5cc-7d33-4054-a0e2-e16b29cc593e.gif)
 
 
-
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/54041918/204921034-d432633a-8ee1-4a55-b3f4-afca5c83fa89.gif)
-
 Link do Swagger para test http://localhost:8080/swagger-ui/index.html#/
 
 ![Screenshot from 2022-11-30 19-24-56](https://user-images.githubusercontent.com/54041918/204921555-9a381733-e69d-4345-b0a3-e396d0b267d8.png)
