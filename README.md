@@ -3,7 +3,11 @@
 
 collection no postman arquivo ProjetoCollectionJava.json 
 
-##Link para as Collections no postman:
+## Video Test link: 
+
+https://drive.google.com/file/d/1g_Otffixo5txR545_5_3FFS-SQylSaIK/view?usp=sharing
+
+## Link para as Collections no postman:
 
 https://github.com/CristianoFIlho/disciplina/blob/master/ProjetoCollectionJava.json
 
@@ -12,7 +16,9 @@ https://github.com/CristianoFIlho/disciplina/blob/master/ProjetoCollectionJava.j
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/54041918/204943274-8936d5cc-7d33-4054-a0e2-e16b29cc593e.gif)
 
 
-## Link do Swagger para test http://localhost:8080/swagger-ui/index.html#/
+## Link do Swagger para test:
+
+http://localhost:8080/swagger-ui/index.html#/
 
 ![Screenshot from 2022-11-30 19-24-56](https://user-images.githubusercontent.com/54041918/204921555-9a381733-e69d-4345-b0a3-e396d0b267d8.png)
 
